@@ -1,0 +1,29 @@
+{
+  "name": "cartilla-mascota",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "expo export:web",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "homepage": "https://irma-m.github.io/cartilla-chewie", 
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "expo": "^52.0.38",
+    "expo-router": "^4.0.18",
+    "expo-status-bar": "~2.0.1",
+    "gh-pages": "^6.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
