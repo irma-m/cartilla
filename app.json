@@ -13,13 +13,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.irma2520.cartillamascota",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.irma2520.cartillamascota"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -28,6 +33,12 @@
       "eas": {
         "projectId": "4cd21d14-e671-49db-b7ba-49980a1cd5ad"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4cd21d14-e671-49db-b7ba-49980a1cd5ad"
     }
   }
 }
