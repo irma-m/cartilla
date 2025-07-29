@@ -1,33 +1,24 @@
-🐾 Cartilla Veterinaria
+# 🐾 Cartilla Veterinaria
 
-App móvil desarrollada con React Native y Expo para llevar el control personalizado de la salud de mis perritos Chewie y Chocoreta.
+App móvil desarrollada con **React Native** y **Expo** para llevar el control personalizado de la salud de mis perritos **Chewie** y **Chocoreta**.
 
-📱 Funcionalidades principales:
+## 📱 Funcionalidades principales
 
-*Registro de vacunas, baños, desparasitaciones y medicamentos
+- Registro de vacunas, baños, desparasitaciones y medicamentos  
+- Selección de perrito (Chewie o Chocoreta)  
+- Cálculo automático de la próxima fecha de aplicación según duración del efecto  
+- Notificación local al guardar registros  
+- Almacenamiento local con **AsyncStorage** (sin conexión a internet)  
+- Interfaz amigable y funcional para uso personal  
 
-*Selección de perrito (Chewie o Chocoreta)
+## 💡 Proyecto personal  
+Proyecto sin fines comerciales, pensado como una cartilla veterinaria digital portátil.
 
-*Cálculo automático de la próxima fecha de aplicación según duración del efecto
+## 🔧 Tecnologías usadas
 
-*Notificación local al guardar registros
-
-*Almacenamiento local con AsyncStorage (sin conexión a internet)
-
-*Interfaz amigable y funcional para uso personal
-
-💡 Proyecto personal sin fines comerciales, pensado como una cartilla veterinaria digital portátil.
-
-🔧 Tecnologías usadas:
-
-React Native + Expo
-
-JavaScript
-
-AsyncStorage (almacenamiento local sin conexión)
-
-React Navigation
-
-Íconos personalizados
-
-Estilo limpio y responsivo
+- React Native + Expo  
+- JavaScript  
+- AsyncStorage  
+- React Navigation  
+- Íconos personalizados  
+- Estilo limpio y responsivo  
